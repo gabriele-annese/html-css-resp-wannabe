@@ -112,6 +112,15 @@ img {
 }
 
 
+/* IPHONE */
+
+@media screen and (max-width: 812px){
+  .row {
+    width: 100%;
+  }
+}
+
+
 /* GALAXY FOLD */
 
 @media screen and (max-width: 280px) {
