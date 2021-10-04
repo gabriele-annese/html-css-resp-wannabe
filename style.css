@@ -110,3 +110,12 @@ img {
     margin-bottom: 20px;
   }
 }
+
+
+/* GALAXY FOLD */
+
+@media screen and (max-width: 280px) {
+  .row img {
+    height: 150px;
+  }
+}
