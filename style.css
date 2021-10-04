@@ -71,3 +71,26 @@ img {
 .clear {
   clear: both;
 }
+
+/* *****************
+      RESPONSIVE
+ ******************/
+
+@media screen and (max-width: 420px){
+  .row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right{
+    width: 100%;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+  }
+}
